@@ -11,18 +11,19 @@ let users =[                   //step.4 create array
     {id:6 ,name:"mansor", age:20 ,email:"mansor@gmail.com"},
     {id:8 ,name:"salma", age:18 ,email:"salma@gmail.com"},
     {id:10 ,name:"amira", age:30, email:"amira@gamil.com"},
-    {id:12 ,name:"ragabe", age:45,email:"ragabe@gmail.com"}
+    {id:12 ,name:"ragabe", age:45,email:"ragabe@gmail.com"},
+    {id:12 ,name:"john", age:45,email:"john@gmail.com"},
 
 ]
-let posts =[
-    {id:5 ,titil:"foodball", content:"mohamed salah"},
-    {id:10 ,titil:"programming", content:"node.js"},
-    {id:15 ,titil:"heathy", content:"healsy foods"},
-    {id:20 ,titil:"salfcare", content:"fashion"},
-    {id:25 ,titil:"good hapits", content:"reading"},
-    {id:30 ,titil:"gam", content:"arm training"},
-    
-]
+let posts = [
+  { id: 5, titil: "foodball", content: "mohamed salah" },
+  { id: 10, titil: "programming", content: "node.js" },
+  { id: 15, titil: "heathy", content: "healsy foods" },
+  { id: 20, titil: "salfcare", content: "fashion" },
+  { id: 25, titil: "good hapits", content: "reading" },
+  { id: 30, titil: "gam", content: "arm training" },
+  { id: 30, titil: "Technology", content: "ChatGPT" },
+];
 let newArray=[];
 
 /**
