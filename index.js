@@ -1,6 +1,4 @@
 
-const { error } = require('console');
-const { response } = require('express');
 const http = require('http');    // step.1 stored http module in require(There are a codes inside this module i use it so i require and store it)
 
 const port =5000;
@@ -12,7 +10,7 @@ let users =[                   //step.4 create array
     {id:8 ,name:"salma", age:18 ,email:"salma@gmail.com"},
     {id:10 ,name:"amira", age:30, email:"amira@gamil.com"},
     {id:12 ,name:"ragabe", age:45,email:"ragabe@gmail.com"},
-    {id:12 ,name:"john", age:45,email:"john@gmail.com"},
+    {id:13 ,name:"john", age:45,email:"john@gmail.com"},
 
 ]
 let posts = [
@@ -22,7 +20,7 @@ let posts = [
   { id: 20, titil: "salfcare", content: "fashion" },
   { id: 25, titil: "good hapits", content: "reading" },
   { id: 30, titil: "gam", content: "arm training" },
-  { id: 30, titil: "Technology", content: "ChatGPT" },
+  { id: 31, titil: "Technology", content: "ChatGPT" },
 ];
 let newArray=[];
 
